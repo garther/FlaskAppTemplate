@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def page_root():
-    return helloworld.hello_world()
+    return helloworld.hello_world(app.conf.AppName)
 
 # HTTP error handling
 @app.errorhandler(404)
