@@ -12,4 +12,6 @@ $ pip install -r requirements.txt
 $ ./env/bin/python run.py
 ```
 
+Nginx as a proxy and domain needed for subdomain blueprints to work
+
 Now point you browser to http://localhost:8080
