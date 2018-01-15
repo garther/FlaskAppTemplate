@@ -1,0 +1,18 @@
+{% extends "skel.html" %}
+
+{% block title %}
+Tools
+{% endblock %}
+
+{% block specific_css %}
+<link rel="stylesheet" href="static/tools.css">
+{% endblock %}
+
+{% block navigation %}
+{% endblock %}
+
+{% block content %}
+    {% for tool in tools %}
+        {{ tool }}
+    {% endfor %}
+{% endblock %}

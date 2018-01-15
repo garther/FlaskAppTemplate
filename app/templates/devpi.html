@@ -1,0 +1,20 @@
+{% extends "skel.html" %}
+
+{% block title %}
+Tools
+{% endblock %}
+
+{% block specific_css %}
+<link rel="stylesheet" href="static/devpi.css">
+{% endblock %}
+
+{% block navigation %}
+{% endblock %}
+
+{% block content %}
+    DEVPI
+    {% if show_image %}
+    NOW WITH IMAGE
+        <img src='/static/test.png'>
+    {% endif %}
+{% endblock %}

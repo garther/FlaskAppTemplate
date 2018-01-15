@@ -1,0 +1,15 @@
+{% extends "skel.html" %}
+
+{% block title %}
+TITLE
+{% endblock %}
+
+{% block specific_css %}
+<link rel="stylesheet" href="static/index.css">
+{% endblock %}
+
+{% block content %}
+    {% for post in posts %}
+        CONTENT ON THE INDX PAGE
+    {% endfor %}
+{% endblock %}
